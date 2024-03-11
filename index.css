@@ -1,0 +1,279 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    color: #A5B4FC;
+    font-size: 3.5em;
+}
+
+h2 {
+    color: #A5B4FC;
+    text-align: center;
+    margin: 0 0 50px;
+    font-family: 'monrope', sans-serif;
+}
+
+list1 p em {
+    color: #A5B4FC;
+}
+
+p {
+    font-family: 'monrope', sans-serif;
+    text-align: justify;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.icon-link:hover {
+    opacity: 0.5;
+}
+
+header,
+footer {
+    padding: 20px 50px;
+    background-color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+body {
+    background-color: #1F2039;
+    color: #F9F8FF;
+    margin: 0px;
+}
+
+.link {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+.container-image img {
+    width: 100%;
+}
+
+.cont {
+    background-color: aliceblue;
+}
+
+.cont h2 {
+    color: black;
+    padding: 10px 8%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+    max-width: 1000px;
+    padding: 50px;
+    gap: 100px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cont .list .list1 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+
+.classe {
+    background: linear-gradient(#8E86B5, #ACAEED);
+    font-family: 'montserrat', sans-serif;
+    color: white;
+    border-radius: 50px;
+    ;
+    display: inline-block;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.send .classe {
+    width: 100px;
+}
+
+/*============= start of the form ========= */
+.forme {
+    margin-bottom: 50px;
+    margin: 50px;
+}
+
+form {
+    max-width: 1000px;
+    padding: 0 50px;
+    margin: auto;
+}
+
+.group_name_mail {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.group input {
+    border-radius: 5px;
+    padding: 15px 10px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+.send {
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.classe {
+    padding: 20px 30px;
+}
+
+.classe:hover {
+    background: linear-gradient(#696484, #8788ba);
+    text-decoration: none;
+}
+
+/* ========== end of the form================ */
+/* ========= start of the footer ============= */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.foot {
+    display: flex;
+    gap: 30px;
+}
+
+.forme .send {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+}
+
+.foot {
+    gap: 30px;
+}
+
+/* ========= end of the footer ============= */
+/* ========= start of the responsive ============= */
+@media screen and (max-width:996px) {
+    .cont .list .list1 {
+        flex-direction: column;
+    }
+
+    form .group_name_mail {
+        flex-direction: column;
+    }
+
+    form .send {
+        padding: 1px 0px;
+        font-size: 10px;
+    }
+
+    section .classe {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .forme {
+        padding: 20px 0;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: auto;
+        padding: 0px 20px;
+        gap: 0px;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .container p {
+        margin: 0 0 30px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: monrope, sans-serif;
+    }
+
+    .container h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    .container img {
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    .form {
+        width: 100;
+        margin: auto;
+        padding: 0 10px;
+    }
+
+    .send .classe {
+        margin-bottom: 0px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    footer .foot {
+        display: flex;
+        flex-direction: row;
+    }
+}
